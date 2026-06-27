@@ -43,7 +43,7 @@ function Particles() {
   return <canvas ref={canvas} className="hero-canvas"/>
 }
 
-const ROLES=["Full-Stack Software Engineer","Backend Engineer","Generative AI Developer","Python & React Developer"]
+const ROLES=["Full-Stack Software Engineer","Generative AI Developer"]
 function Typewriter() {
   const [text,setText]=useState(""), [idx,setIdx]=useState(0), [del,setDel]=useState(false), [hold,setHold]=useState(false)
   useEffect(()=>{
