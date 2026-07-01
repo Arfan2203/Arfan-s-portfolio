@@ -83,7 +83,7 @@ function Avatar() {
 
         <div className="profile-metrics">
           <div><strong>2+</strong><span>Years Experience</span></div>
-          <div><strong>150+</strong><span>Users Served</span></div>
+          <div><strong>5K+</strong><span>Users Served</span></div>
           <div><strong>25%</strong><span>Query Gain</span></div>
         </div>
 
@@ -144,7 +144,7 @@ function About() {
         </Reveal>
         <Reveal delay={3}>
           <div className="about-stats">
-            {[["2+","Years Experience"],["150+","Users Served"],["~25%","Query Performance Gain"],["~30%","UI Bug Reduction"]].map(([n,l])=>(
+            {[["2+","Years Experience"],["5K+","Users Served"],["~25%","Query Performance Gain"],["~30%","UI Bug Reduction"]].map(([n,l])=>(
               <div key={l} className="stat-box"><div className="stat-n">{n}</div><div className="stat-l">{l}</div></div>
             ))}
           </div>
@@ -184,7 +184,7 @@ function Skills() {
 
 const BULLETS=[
   <><strong>Python</strong> backend services — processing tracking events, handling business logic, validating requests, and exposing secure APIs for frontend and system integrations.</>,
-  <>Responsive <strong>dashboard screens</strong> in React.js, JavaScript, HTML and CSS — used by <strong>150+ internal operations users</strong> to view tracking status, search records, and access reports.</>,
+  <>Responsive <strong>dashboard screens</strong> in React.js, JavaScript, HTML and CSS — used by <strong>5K+ internal operations users</strong> to view tracking status, search records, and access reports.</>,
   <>Scalable <strong>RESTful APIs</strong> following OpenAPI/Swagger standards for reliable communication between frontend modules and backend services.</>,
   <>Secure auth with <strong>OAuth 2.0, JWT, and role-based access control</strong> across 3 distinct user roles, strengthening application security.</>,
   <><strong>GraphQL</strong> schema design and resolver development, cutting unnecessary API calls by <strong>~23%</strong> and improving frontend data-load efficiency.</>,
